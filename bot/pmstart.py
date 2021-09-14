@@ -41,12 +41,12 @@ async def start(client, message):
                 InlineKeyboardButton("Help & Commands ❓", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("Source Code 🗒", url=f"https://github.com/Sadew451/StreamVideo"),
+                InlineKeyboardButton("Source Code 🗒", url=f"https://github.com/TeamShizuX/StreamVideo"),
                  InlineKeyboardButton("About Me 👨‍🔧", callback_data="about"),
             ],
             [
-                InlineKeyboardButton("Updates Channel 🙋‍", url=f"https://t.me/Natsuki_Updates"),
-                InlineKeyboardButton("Support Group 👥", url=f"https://t.me/NatsukiSupport_Official"),
+                InlineKeyboardButton("Updates Channel 🙋‍", url=f"https://t.me/CozmoUpdates"),
+                InlineKeyboardButton("Support Group 👥", url=f"https://t.me/CozmoSupport_Official"),
             ],
             [
                InlineKeyboardButton("➕ Add me to your Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
@@ -67,7 +67,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton("Back", callback_data="start"),
-                InlineKeyboardButton ("Support Group 👥", url=f"https://t.me/NatsukiSupport_Official"),
+                InlineKeyboardButton ("Support Group 👥", url=f"https://t.me/CozmoSupport_Official"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -83,7 +83,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton("Back", callback_data="start"),
-                InlineKeyboardButton ("Support Group 👥", url=f"https://t.me/NatsukiSupport_Official"),
+                InlineKeyboardButton ("Support Group 👥", url=f"https://t.me/CozmoSupport_Official"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -102,12 +102,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("Help & Commands ❓", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("Source Code 📋", url=f"https://github.com/Sadew451/StreamVideo"),
+                InlineKeyboardButton("Source Code 📋", url=f"https://github.com/TeamShizuX/StreamVideo"),
                  InlineKeyboardButton("About Me 👨‍", callback_data="about"),
             ],
             [
-                InlineKeyboardButton("Updates Channel 🙋‍♂️", url=f"https://t.me/Natsuki_Updates"),
-                InlineKeyboardButton("Support Group 👥", url=f"https://t.me/NatsukiSupport_Official"),
+                InlineKeyboardButton("Updates Channel 🙋‍♂️", url=f"https://t.me/CozmoUpdates"),
+                InlineKeyboardButton("Support Group 👥", url=f"https://t.me/CozmoSupport_Official"),
             ],
             [
                InlineKeyboardButton("➕ Add me to your Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
